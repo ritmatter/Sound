@@ -1512,3 +1512,19 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 !SUBENTRY 1 org.eclipse.core.resources 4 274 2013-08-21 19:53:54.238
 !MESSAGE Resource is out of sync with the file system: '/Dictation/src/233-349.jpg'.
+
+!ENTRY com.google.gdt.eclipse.platform.shared 2 0 2013-08-21 20:33:46.752
+!MESSAGE org.mortbay.jetty: 2 threads could not be stopped
+!SESSION 2013-08-23 15:22:59.278 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/ritmatter/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/ritmatter/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-23 15:23:52.162
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.google.gdt.eclipse.platform.shared 2 0 2013-08-23 15:51:33.755
+!MESSAGE org.mortbay.jetty: 1 threads could not be stopped

@@ -177,7 +177,7 @@ public class MultiplePitchRead {
 		 false // Configure chart to generate URLs?
 		 );
 		 try {
-		 ChartUtilities.saveChartAsJPEG(new File(filename + ".jpg"), chart, 500, 300);
+		 ChartUtilities.saveChartAsJPEG(new File("./images/" + filename + ".jpg"), chart, 500, 300);
 		 } catch (IOException e) {
 			 System.err.println("Problem occurred creating chart.");
 		 }
